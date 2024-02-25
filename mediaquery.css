@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+  .train {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 270px;
+    height: 300px;
+    padding: 10px 15px;
+  }
+
+  #save-btn {
+    margin-bottom: 0;
+    padding: 7px 27px;
+  }
+
+  #increment-btn {
+    margin-bottom: 10px;
+    padding: 7px 10px;
+  }
+  #total-btn {
+    margin-bottom: 10px;
+    padding: 7px 27px;
+  }
+}
+
+@media screen and (max-width: 320px){
+    .container{
+        width: 250px;
+    }
+}
